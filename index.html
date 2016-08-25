@@ -1,0 +1,29 @@
+<html>
+<head></head>
+
+<body>
+<div>
+	<div>
+		<label>请输入密码</label>
+		<object id="password" classid="CLSID:F03E73E1-FBB4-4287-9D0C-C614DCEBFF93" codebase="user/HSPwdCtrl.cab#version=6,0,4,8">
+			<param name="PasswordChar" value="42">
+			<param name="MaxLength" value="32">
+			<param name="BevelKind" value="1">
+			<param name="BorderStyle" value="0">
+		</object>
+	</div>
+	<div>
+		<label>编码后的密码: </label>
+		<label id="encodepw"></label>
+	</div>
+	<div>
+		<a id="sendid" href="###">
+			<span>开始编码</span>
+		</a>
+	</div>
+</div>
+
+<script src="./jquery.js" type="text/javascript"></script>
+<script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
